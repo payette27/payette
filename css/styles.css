@@ -1,0 +1,86 @@
+body {
+    background-color: #111111;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+  h1, h2, h3 {
+      color: #ffffff;
+      font-size: 40px;
+      line-height: 1.5;
+      font-style: bold;
+      text-align: center;
+    }
+
+    p {
+      color: #d5d5d5;
+      font-size: 16px;
+      line-height: 2.0;
+      text-align: center;
+    }
+
+
+  .home-1 {
+    background-color: #ff5734;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .home-2{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .home-3{
+    background-color: #7B1E7A;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  #holding-div{
+    display: flex;
+    max-width: 1080px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  #logo-div{
+    margin-top: 10px;
+  }
+
+
+  ul li:last-child{
+    border-right-style: solid;
+    border-right-color: #444439;
+  }
+  .nav-list-link {
+      color: #ff5734;
+      border-left-style: solid;
+      border-left-color: #444439;
+      padding: 5px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
+
+    li a:hover,
+    li a:focus {
+          /* No underline when hovering over a link */
+          color: #7B1E7A
+      }
+      .current {
+        /* Current page link is highlighted */
+        color: #7B1E7A;
+      }
+
+    li a:active {
+        /* selected link*/
+        color: #26da5c;
+      }
+
+    .nav-list li {
+      display: inline-block;
+    }
